@@ -1,0 +1,120 @@
+.header{
+  display: flex;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  justify-content: center;
+  justify-content: space-between;
+  position:fixed;
+  align-items: center;
+  border-bottom-width: 3px;
+  border-bottom-style: solid ;
+  border-bottom-color: rgb(146, 147, 147);
+  z-index: 1;
+
+}
+.firstbox{
+  background-color: rgb(0, 0, 0);
+  height: 40px;
+  width: 390px;
+  display: flex;
+  
+}
+.humburger{
+  width: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+
+.logo{
+  width: 120px;
+  padding-left: 20px;
+ 
+
+}
+.secondbox{
+  background-color: hsla(40, 3%, 21%, 0.708);
+  height: 40px;
+  width: 600px;
+  max-width: 600px; 
+  border-radius: 50px;
+  display: flex;
+  margin-left: 100px;
+ 
+}
+
+.searchbox{
+  flex: 1;
+  border-radius: 50px;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 45px;
+  font-size: 16px;
+  background-color: transparent;
+  width: 0;
+}
+.searchbox:hover{
+  border: 2px solid rgba(255, 0, 0, 0.478);
+}
+
+.microphone{
+  width: 33px;
+  padding-right: px;
+  height: 33px;
+  cursor: pointer;
+}
+.microphone:hover{
+  background-color:  hsla(0, 74%, 35%, 0.797);
+  border-radius: 20px;
+}
+
+.thirdbox{
+  
+  height: 40px;
+  width: 370px;
+  display: flex;
+
+}
+.shorts{
+  width: 25px;
+  padding-left: 160px;
+  padding-right: 40px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.bell{
+  width: 27px; 
+  padding-top: 6px;
+
+}
+.message{
+  position: relative;
+}
+.icon{
+  background-color: rgb(200, 0, 0);
+  color: white;
+  position: absolute;
+  padding-left:6px ;
+  padding-right:6px ;
+  padding-top:2px ;
+  padding-bottom:2px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:x-small;
+  border-radius: 20px;
+  bottom: 11px;
+  left: 11px;
+  cursor: pointer;
+}
+.userpic{
+  width: 30px;
+  height: 30px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 4px;
+} 
+.adjustpic{
+margin-left: 40px;
+}

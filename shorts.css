@@ -1,0 +1,59 @@
+.shgrid-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+.shortspic1,
+.shortspic2{
+  width: 100%;
+  border-radius: 10px;
+}
+.shbio-grids{
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+}
+.shorts-logo{
+  width: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  
+}
+.shorts-viwes{
+  font-size: 15px;
+  padding-top: 12px;
+  color: gray;
+}
+.logo-para{
+  display: flex;
+  flex:1;
+  align-items: center;
+ 
+}
+.shorts-para{
+color: #F1F1F1;
+font-size:20px;
+font-family: Roboto, Arial;
+margin-left: 12px;
+font-weight: bold;
+}
+.para{
+  color: white;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+
+}
+@media (max-width:600px) {
+  .shgrid-box{
+    grid-template-columns: 1fr 1fr;
+  }
+} 
+@media (min-width:601px) and (max-width:999px){
+  .shgrid-box{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} 
+

@@ -1,97 +1,124 @@
 .header{
-  display: flex;
-  height: 60px;
   background-color: rgb(0, 0, 0);
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  display: flex;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
   justify-content: center;
   justify-content: space-between;
-  position:fixed;
   align-items: center;
-  border-bottom-width: 3px;
-  border-bottom-style: solid ;
-  border-bottom-color: rgb(146, 147, 147);
+  height: 55px;
+  width: 100%;
+  border-bottom: 2px solid gray;
   z-index: 1;
-
 }
 .firstbox{
-  background-color: rgb(0, 0, 0);
-  height: 40px;
-  width: 390px;
+  background-colo: rgba(137, 43, 226, 0.175);
+  min-width:450px;
+  height: 55px;
+  position: relative;
+  align-items: center;
   display: flex;
+ 
+}
+.lines{
+width: 25px;
+position: absolute;
+left: 30px;
+top: 7px;
+padding: 8px 8px 8px 8px;
+cursor: pointer;
+
+}
+.lines:hover{
+ transition:1s;
+  background-color:rgba(52, 52, 52, 0.699);
+  border-radius: 20px;
   
 }
-.humburger{
-  width: 20px;
-  padding-left: 20px;
-  cursor: pointer;
+.lines:active{
+  background-color:rgb(52, 52, 52);
+  border-radius: 8px;
 }
-
-
 .logo{
-  width: 120px;
-  padding-left: 20px;
- 
-
+  position: absolute;
+  width: 100px;
+  left: 70px;
 }
 .secondbox{
-  background-color: hsla(40, 3%, 21%, 0.708);
-  height: 40px;
-  width: 600px;
-  max-width: 600px; 
-  border-radius: 50px;
+  background-colo: brown;
+  width: 700px;
+  max-width: 700px;
+  height: 38px;
+  align-content: center;
   display: flex;
-  margin-left: 100px;
- 
+  flex-direction: column;
+  position: relative;
 }
-
 .searchbox{
   flex: 1;
-  border-radius: 50px;
-  border-bottom: none;
-  border-right: none;
-  padding-left: 45px;
+  height: 25px;
+  left: 30px;
+  top: 9px;
+  border-radius: 30px;
+  border: 0.5px solid rgb(52, 52, 52);
+  padding-left: 20px;
+  background-color: rgb(69, 69, 69);
+  outline: 0;
+  color: white;
   font-size: 16px;
-  background-color: transparent;
-  width: 0;
+  background: transparent;
+  width: 100%;
+  min-width: 130px;
 }
 .searchbox:hover{
-  border: 2px solid rgba(255, 0, 0, 0.478);
+  border: 0.5px solid blue;
 }
-
-.microphone{
-  width: 33px;
-  padding-right: px;
-  height: 33px;
+.searchbox:active{
+  border: 2px solid rgb(26, 26, 251);
+}
+.search-icon{
+  width: 25px;
+  position: absolute;
+  top: 7px;
+  right: 1px;
   cursor: pointer;
-}
-.microphone:hover{
-  background-color:  hsla(0, 74%, 35%, 0.797);
-  border-radius: 20px;
+  cursor: pointer;
 }
 
 .thirdbox{
-  
-  height: 40px;
-  width: 370px;
-  display: flex;
-
+  background-colo: blueviolet;
+  width: 350px;
+  height: 55px;
+  position: relative;
+  flex-shrink: 0;
 }
-.shorts{
-  width: 25px;
-  padding-left: 160px;
-  padding-right: 40px;
+.sh{
+  width: 28px;
+  position: absolute;
+  left: 60px;
+  top: 2px;
   cursor: pointer;
-  margin-top: 0px;
+  padding: 8px 9px 8px 10px;
+}
+.sh:active{
+  background-color: hsla(40, 3%, 21%, 0.575);
+  border-radius: 9px;
+
 }
 .bell{
-  width: 27px; 
-  padding-top: 6px;
-
+  position: absolute;
+  width: 30px;
+  top: 5px;
+  left: 150px;
+  padding: 8px 8px 8px 8px;
+  cursor: pointer;
 }
-.message{
-  position: relative;
+.bell:active{
+  background-color: hsla(40, 3%, 21%, 0.575);
+  border-radius: 9px;
 }
 .icon{
   background-color: rgb(200, 0, 0);
@@ -104,17 +131,16 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size:x-small;
   border-radius: 20px;
-  bottom: 11px;
-  left: 11px;
+  bottom: 20px;
+  left: 170px;
   cursor: pointer;
+ 
 }
-.userpic{
-  width: 30px;
-  height: 30px;
-  border-radius: 35px;
-  cursor: pointer;
-  margin-top: 4px;
-} 
-.adjustpic{
-margin-left: 40px;
+.ownerpic{
+  position: absolute;
+  width: 38px;
+  height: 36px;
+  border-radius: 40px;
+  top: 9px;
+  right: 50px;
 }
